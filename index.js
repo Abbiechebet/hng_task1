@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = 3000;
 
-app.get('/info', (req, res) => {
+app.get('/api', (req, res) => {
     const { slack_name, track } = req.query;
 
     if (!slack_name || !track) {
