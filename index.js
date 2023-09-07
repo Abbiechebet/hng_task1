@@ -18,8 +18,8 @@ app.get('/info', (req, res) => {
         current_day: days[currentDate.getUTCDay()],
         utc_time: currentDate.toISOString(),
         track: track,
-        github_file_url: "https://github.com/username/hng_task1/blob/main/index.js", 
-        github_repo_url: "https://github.com/username/hng_task1",  
+        github_file_url: "https://github.com/Abbiechebet/hng_task1/blob/main/index.js", 
+        github_repo_url: "https://github.com/Abbiechebet/hng_task1",  
         status_code: 200
     };
 
